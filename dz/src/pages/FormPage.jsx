@@ -48,26 +48,3 @@ const FormPage = () => {
 };
 
 export default FormPage;
-
-// Для себя комментарии
-
-// const somePost = {
-//     title:post.title,
-//     body:post.body,
-//     userId: 1
-// }
-//
-//
-//
-// const  response = await fetch('https://dummyjson.com/posts/add', {
-//     method:'POST',
-//     headers: {
-//         'Content-Type':'application/json'
-//     },
-//     body: JSON.stringify(somePost)
-// })
-//
-// if(response.ok){
-//     console.log(response)
-//     navigate('/post')
-// }
